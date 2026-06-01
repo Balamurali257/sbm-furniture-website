@@ -1,0 +1,47 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+.navbar ul li {
+    float: left;
+}
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar ul li a:hover {
+    background-color: #111;
+}
+  
+ul li{
+    display: inline;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(131, 216, 27);
+}
+/*#uiu{
+border: 10px solid black;
+    display: grid;
+grid-row: 20px;
+justify-self: start;
+height: 200px;
+width: 200px;
+gap: 10px;}
+
